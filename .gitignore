@@ -1,0 +1,43 @@
+# ── Python Virtual Environment ────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── API Keys — NEVER push these ───────────────────────────────────────────────
+.env
+*.env
+.env.local
+Ai_tool/.env
+
+# ── Database files ────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Raw Data files ────────────────────────────────────────────────────────────
+Data/Campaign_Raw.csv
+Data/Raw_Shopify_Sales.csv
+Data/campaigns_raw.csv
+
+# ── Power BI temp files ───────────────────────────────────────────────────────
+Powerbi/download.jpg
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Windows system files ──────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Mac system files ──────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
